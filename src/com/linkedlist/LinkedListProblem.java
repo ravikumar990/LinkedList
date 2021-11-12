@@ -21,17 +21,21 @@ public class LinkedListProblem {
 		System.out.println("Delete First Node");
 		ListOperations.deleteFirstData();
 		System.out.println("\n===================");
-		
+
 		System.out.println("Delete Last Node");
 		ListOperations.deleteLastData();
 		System.out.println("\n===================");
-		
+
 		System.out.println("Find Node By Value");
 		ListOperations.findNodeByValue();
 		System.out.println("===================");
-		
+
 		System.out.println("Insert Element");
 		ListOperations.insertDataAtGivenNode();
+		System.out.println("\n===================");
+
+		System.out.println("Delete Element");
+		ListOperations.deleteDataAtGivenNode();
 		System.out.println("\n===================");
 	}
 }
