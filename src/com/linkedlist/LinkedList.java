@@ -1,6 +1,6 @@
 package com.linkedlist;
 
-class LinkedList {
+public class LinkedList {
 	Node head;
 	Node tail;
 
@@ -26,6 +26,16 @@ class LinkedList {
 			this.tail = newNode;
 			temp.next = newNode;
 		}
+	}
+
+	public void insertNode(Node prev_node, int newNode) {
+		if (prev_node == null) {
+			System.out.println("The given previous node cannot be null");
+			return;
+		}
+		Node new_Node = new Node(newNode);
+		new_Node.next = prev_node.next;
+		prev_node.next = new_Node;
 	}
 
 	public void print() {
