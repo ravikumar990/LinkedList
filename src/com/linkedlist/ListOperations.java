@@ -51,4 +51,13 @@ public class ListOperations {
 		list.push(56);
 		list.findNode(30);
 	}
+
+	public static void insertDataAtGivenNode() {
+		LinkedList list = new LinkedList();
+		list.push(70);
+		list.push(30);
+		list.push(56);
+		list.insertNode(list.head.next, 40);
+		list.print();
+	}
 }
