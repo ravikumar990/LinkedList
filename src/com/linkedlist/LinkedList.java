@@ -38,6 +38,14 @@ public class LinkedList {
 		prev_node.next = new_Node;
 	}
 
+	public void pop() {
+		if (this.head != null) {
+			Node temp = this.head;
+			this.head = this.head.next;
+			temp = null;
+		}
+	}
+
 	public void print() {
 		if (head == null) {
 			System.out.println("Linked List is Empty");

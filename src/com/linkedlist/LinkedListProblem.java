@@ -17,6 +17,10 @@ public class LinkedListProblem {
 		System.out.println("Insert Nodes");
 		ListOperations.insertData();
 		System.out.println("\n===================");
+
+		System.out.println("Delete First Node");
+		ListOperations.deleteFirstData();
+		System.out.println("\n===================");
 	}
 }
 
