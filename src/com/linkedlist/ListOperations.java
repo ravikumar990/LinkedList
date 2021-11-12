@@ -25,4 +25,22 @@ public class ListOperations {
 		list.insertNode(list.head, 30);
 		list.print();
 	}
+
+	public static void deleteFirstData() {
+		LinkedList list = new LinkedList();
+		list.push(70);
+		list.push(30);
+		list.push(56);
+		list.pop();
+		list.print();
+	}
+
+	public static void deleteLastData() {
+		LinkedList list = new LinkedList();
+		list.push(70);
+		list.push(30);
+		list.push(56);
+		list.popLast();
+		list.print();
+	}
 }

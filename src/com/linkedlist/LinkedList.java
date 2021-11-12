@@ -46,6 +46,15 @@ public class LinkedList {
 		}
 	}
 
+	public void popLast() {
+		Node temp = head;
+		while (!temp.next.equals(tail)) {
+			temp = temp.next;
+		}
+		this.tail = temp;
+		temp.next = null;
+	}
+
 	public void print() {
 		if (head == null) {
 			System.out.println("Linked List is Empty");
