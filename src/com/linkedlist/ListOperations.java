@@ -43,4 +43,12 @@ public class ListOperations {
 		list.popLast();
 		list.print();
 	}
+
+	public static void findNodeByValue() {
+		LinkedList list = new LinkedList();
+		list.push(70);
+		list.push(30);
+		list.push(56);
+		list.findNode(30);
+	}
 }

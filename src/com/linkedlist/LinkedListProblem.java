@@ -25,6 +25,10 @@ public class LinkedListProblem {
 		System.out.println("Delete Last Node");
 		ListOperations.deleteLastData();
 		System.out.println("\n===================");
+
+		System.out.println("Find Node By Value");
+		ListOperations.findNodeByValue();
+		System.out.println("===================");
 	}
 }
 
